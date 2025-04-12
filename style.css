@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+}
+
+img{
+    height: 150px;
+    width: 130px;
+}
+
+.prewiev{
+    width: 700px;
+    height: 900px;
+}
+
+.gallery img:hover{
+    height: 350px;
+    width: 250px;
+    border: 2px double blue;
+    margin: 20px;
+}
+
+iframe{
+    margin-top:50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.look{
+    margin-left: 50px;
+}
